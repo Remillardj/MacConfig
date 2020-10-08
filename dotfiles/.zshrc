@@ -432,7 +432,7 @@ alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 
 # make and cd
-function mkcd
+function mkcdir
 {
     dir="$*";
     mkdir -p "$dir" && cd "$dir";
